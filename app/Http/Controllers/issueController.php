@@ -50,7 +50,7 @@ class issueController extends Controller
             'msg' => 'required'
         ]);
         Nexmo::message()->send([
-            'to'   => '8801677153967',
+            'to'   => '8801780018692',
             'from' => '16105552344',
             'text' => $request->msg,
         ]);
